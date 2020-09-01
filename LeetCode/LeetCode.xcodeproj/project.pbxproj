@@ -15,6 +15,8 @@
 		894ADFB824FBBA850088DA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894ADFB624FBBA850088DA68 /* LaunchScreen.storyboard */; };
 		894ADFC324FBBA850088DA68 /* LeetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFC224FBBA850088DA68 /* LeetCodeTests.swift */; };
 		894ADFCE24FBBA850088DA68 /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFCD24FBBA850088DA68 /* LeetCodeUITests.swift */; };
+		894ADFDD24FBBAE30088DA68 /* ArrayExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFDC24FBBAE30088DA68 /* ArrayExercise.swift */; };
+		894ADFDF24FBCCEF0088DA68 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFDE24FBCCEF0088DA68 /* ArrayTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		894ADFC924FBBA850088DA68 /* LeetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		894ADFCD24FBBA850088DA68 /* LeetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeUITests.swift; sourceTree = "<group>"; };
 		894ADFCF24FBBA850088DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		894ADFDC24FBBAE30088DA68 /* ArrayExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExercise.swift; sourceTree = "<group>"; };
+		894ADFDE24FBCCEF0088DA68 /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				894ADFAB24FBBA830088DA68 /* AppDelegate.swift */,
 				894ADFAD24FBBA830088DA68 /* SceneDelegate.swift */,
 				894ADFAF24FBBA830088DA68 /* ViewController.swift */,
+				894ADFDB24FBBAD30088DA68 /* Array */,
 				894ADFB124FBBA830088DA68 /* Main.storyboard */,
 				894ADFB424FBBA850088DA68 /* Assets.xcassets */,
 				894ADFB624FBBA850088DA68 /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				894ADFC224FBBA850088DA68 /* LeetCodeTests.swift */,
+				894ADFDE24FBCCEF0088DA68 /* ArrayTest.swift */,
 				894ADFC424FBBA850088DA68 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -126,6 +132,14 @@
 				894ADFCF24FBBA850088DA68 /* Info.plist */,
 			);
 			path = LeetCodeUITests;
+			sourceTree = "<group>";
+		};
+		894ADFDB24FBBAD30088DA68 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				894ADFDC24FBBAE30088DA68 /* ArrayExercise.swift */,
+			);
+			path = Array;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				894ADFB024FBBA830088DA68 /* ViewController.swift in Sources */,
+				894ADFDD24FBBAE30088DA68 /* ArrayExercise.swift in Sources */,
 				894ADFAC24FBBA830088DA68 /* AppDelegate.swift in Sources */,
 				894ADFAE24FBBA830088DA68 /* SceneDelegate.swift in Sources */,
 			);
@@ -270,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				894ADFC324FBBA850088DA68 /* LeetCodeTests.swift in Sources */,
+				894ADFDF24FBCCEF0088DA68 /* ArrayTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
