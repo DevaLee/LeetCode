@@ -38,6 +38,11 @@ class ArrayTest: XCTestCase {
         XCTAssert(array == [2, 3, 1])
     }
 
+    func testTwoSums(){
+         let array = ArrayExercise().twoSum([3,2,4], 6)
+        XCTAssert(array == [1, 2])
+    }
+
     func removeTest(){
 
     }
