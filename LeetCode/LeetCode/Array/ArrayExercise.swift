@@ -201,6 +201,30 @@ class ArrayExercise {
 
     }
 
+    func rotate(_  matrix: inout [[Int]]) {
+        let n = matrix.count;
+        for i in 0..<n {
+            for j in i..<n {
+                let tmp = matrix[j][i]
+                matrix[j][i] = matrix[i][j]
+                matrix[i][j] = tmp
+            }
+        }
+
+
+        for i in 0..<n {
+            for j in 0..<n/2 {
+                let tmp = matrix[i][j]
+                matrix[i][j] = matrix[i][n-j-1]
+                matrix[i][n-j-1] = tmp
+
+            }
+        }
+
+    }
+
+
+
 
     private func rotateArray(_ nums: inout [Int],_ k: Int) {
         reverseArray(&nums, 0, nums.count - 1)
@@ -215,5 +239,7 @@ class ArrayExercise {
             nums.swapAt(i, end - (i - begin))
         }
     }
+
+
 
 }

@@ -43,8 +43,10 @@ class ArrayTest: XCTestCase {
         XCTAssert(array == [1, 2])
     }
 
-    func removeTest(){
-
+    func testRotateMatrix() {
+        var array = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+        ArrayExercise().rotate(&array)
+        XCTAssert(true)
     }
 
 }
