@@ -17,6 +17,8 @@
 		894ADFCE24FBBA850088DA68 /* LeetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFCD24FBBA850088DA68 /* LeetCodeUITests.swift */; };
 		894ADFDD24FBBAE30088DA68 /* ArrayExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFDC24FBBAE30088DA68 /* ArrayExercise.swift */; };
 		894ADFDF24FBCCEF0088DA68 /* ArrayTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894ADFDE24FBCCEF0088DA68 /* ArrayTest.swift */; };
+		89D6712F24FFE388002C1564 /* StringExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6712E24FFE388002C1564 /* StringExercise.swift */; };
+		89D6713124FFE453002C1564 /* StringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D6713024FFE453002C1564 /* StringTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		894ADFCF24FBBA850088DA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		894ADFDC24FBBAE30088DA68 /* ArrayExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExercise.swift; sourceTree = "<group>"; };
 		894ADFDE24FBCCEF0088DA68 /* ArrayTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTest.swift; sourceTree = "<group>"; };
+		89D6712E24FFE388002C1564 /* StringExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExercise.swift; sourceTree = "<group>"; };
+		89D6713024FFE453002C1564 /* StringTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 			children = (
 				894ADFC224FBBA850088DA68 /* LeetCodeTests.swift */,
 				894ADFDE24FBCCEF0088DA68 /* ArrayTest.swift */,
+				89D6713024FFE453002C1564 /* StringTest.swift */,
 				894ADFC424FBBA850088DA68 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -138,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				894ADFDC24FBBAE30088DA68 /* ArrayExercise.swift */,
+				89D6712E24FFE388002C1564 /* StringExercise.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				894ADFB024FBBA830088DA68 /* ViewController.swift in Sources */,
 				894ADFDD24FBBAE30088DA68 /* ArrayExercise.swift in Sources */,
 				894ADFAC24FBBA830088DA68 /* AppDelegate.swift in Sources */,
+				89D6712F24FFE388002C1564 /* StringExercise.swift in Sources */,
 				894ADFAE24FBBA830088DA68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +293,7 @@
 			files = (
 				894ADFC324FBBA850088DA68 /* LeetCodeTests.swift in Sources */,
 				894ADFDF24FBCCEF0088DA68 /* ArrayTest.swift in Sources */,
+				89D6713124FFE453002C1564 /* StringTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
